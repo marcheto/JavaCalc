@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class CalculatorTest {
+<<<<<<< HEAD
 
 	@Test
 	public void evaluatesExpression() {
@@ -28,3 +29,13 @@ public class CalculatorTest {
 		assertEquals(0, sum);
 	}
 }
+=======
+  @Test
+  public void evaluatesExpression() {
+    //test new file
+    Calculator calculator = new Calculator();
+    int sum = calculator.evaluate("1+2+3");
+    assertEquals(6, sum);
+  }
+}
+>>>>>>> origin/master
